@@ -11,6 +11,18 @@
     <Product>Persian Utility</Product>
     <Description>Simple persian utility for learing nuget system</Description>
     <Copyright>MIT</Copyright>
+    <PackageProjectUrl>https://github.com/Merkousha/DaneshkarPersianUtils</PackageProjectUrl>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
+    <RepositoryUrl>https://github.com/Merkousha/DaneshkarPersianUtils</RepositoryUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Persian , daneshkar , fun</PackageTags>
   </PropertyGroup>
+
+  <ItemGroup>
+    <None Include="..\..\..\Downloads\README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+  </ItemGroup>
 
 </Project>
